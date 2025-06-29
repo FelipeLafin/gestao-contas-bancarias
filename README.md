@@ -38,5 +38,34 @@ Permite criar, consultar, atualizar saldo (depósito e saque) e ativar/desativar
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seuusuario/gestao-contas-bancarias.git
-cd gestao-contas-bancarias
+git clone https://github.com/FelipeLafin/gestao-contas-bancarias.git
+cd caminho-para-o-arquivo/gestao-contas-bancarias
+
+```
+
+2. Instale as dependencias:
+
+```bash
+mvn clean install
+```
+
+3. Iniciando o projeto:
+ - Abra um novo terminal e digite:
+
+```bash
+mvn spring-boot:run
+```
+4. Iniciando o banco:
+- Acesse o console do banco H2 (opcional, para ver tabelas e dados) no seu navegador usando:
+
+```bash
+http://localhost:8080/h2
+```
+
+Use os parâmetros:
+
+JDBC URL: jdbc:h2:mem:meubanco
+
+Usuário: sa
+
+Senha: (deixe em branco)
