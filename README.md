@@ -50,17 +50,24 @@ mvn clean install
 ```
 
 3. Iniciando o projeto:
- - Abra um novo terminal e digite:
+ - Abra um novo terminal e digite isto para executar:
 
 ```bash
 mvn spring-boot:run
 ```
+ - Caso deseje abrir o menu, procure pelo arquivo java\com\example\client e rode o arquivo MenuPerguntas.java *OU* rode o arquivo:
+ ```bash
+ java src\main\java\com\example\client\MenuPerguntas.java
+ ```
+
 4. Iniciando o banco:
 - Acesse o console do banco H2 (opcional, para ver tabelas e dados) no seu navegador usando:
 
 ```bash
 http://localhost:8080/h2
 ```
+5. EXTRA:
+- É possivel usar um menu que fiz no terminal!
 
 Use os parâmetros:
 
