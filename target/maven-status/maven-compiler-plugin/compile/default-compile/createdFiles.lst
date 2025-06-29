@@ -1,0 +1,5 @@
+com\example\demo\controller\ContaBancariaController.class
+com\example\demo\DemoApplication.class
+com\example\demo\service\ContaBancariaService.class
+com\example\demo\repository\ContaBancariaRepository.class
+com\example\demo\model\ContaBancaria.class
